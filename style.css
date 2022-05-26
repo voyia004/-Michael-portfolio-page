@@ -1,0 +1,14 @@
+*{
+   margin:0;
+   padding:0;
+}
+body{
+    background-image: url('images/image\ 3.jfif');background-repeat: no-repeat ;
+    background-size: cover;
+    display: flex;
+}
+.header img{
+          width: 130px; 
+          height: 130px;
+
+}
