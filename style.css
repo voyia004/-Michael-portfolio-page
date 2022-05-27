@@ -3,12 +3,29 @@
    padding:0;
 }
 body{
-    background-image: url('images/image\ 3.jfif');background-repeat: no-repeat ;
+    background-image: url(images/images\ y.jfif);background-repeat: no-repeat ;
     background-size: cover;
     display: flex;
+    align-items: center;
+    min-height:100vh;
+    justify-content: center;
 }
 .header img{
           width: 130px; 
           height: 130px;
-
+          border-radius: 50%;
+          object-fit: cover;
+          object-position: 0 -8px;
+          
+}
+h1{
+    color: blanchedalmond;
+}
+.main{
+    background-color:rgba(red, green, blue, alpha) ;
+    color: white;
+    text-align: center;
+    border-radius: 20 px;
+    width: 30%;
+    height: 40px;
 }
